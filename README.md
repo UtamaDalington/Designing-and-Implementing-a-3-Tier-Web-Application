@@ -11,19 +11,6 @@
 
 This project guides you through establishing a robust Virtual Private Cloud (VPC) infrastructure within your AWS Cloud environment, specifically designed to host a foundational 3-tier web application. To ensure maximum uptime and resilience, the VPC will span multiple Availability Zones (AZs). Before diving into the setup, we’ll briefly review VPC fundamentals and the functionality of Elastic Load Balancing.
 
-<!-- ## **🛠 Key Components and Workflow:**
-
-· AWS Lambda: Automates the rotation and lifecycle management of access keys using serverless compute, eliminating manual intervention.
-
-· Amazon EventBridge (formerly CloudWatch Events): Schedules and triggers Lambda functions at defined intervals to ensure timely execution of key rotation tasks.
-
-· AWS Secrets Manager: Securely stores access keys and enables centralized, encrypted secret management, allowing Lambda to retrieve credentials securely.
-
-· Amazon SNS (Simple Notification Service): To send messages (notifications) to subscriber’s email after Creation and Deletion of access keys.
-
-· IAM: Configures roles and permissions to enable secure and controlled key rotation, as well as automated deactivation of unused keys. 
--->
-
 ## **🌱 Benefits and Outcomes:**
 
 <b>1. High Availability:</b><br/>
